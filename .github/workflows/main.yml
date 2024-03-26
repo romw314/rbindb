@@ -33,6 +33,8 @@ jobs:
         run: ./build.sh
       - name: Create directory listing
         uses: romw314/github-pages-directory-listing@2ba3179736f713e02b939abda432a628b5b0d843
+        with:
+          FOLDER: ./dist
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
