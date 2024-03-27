@@ -1,3 +1,4 @@
 pkgs
 dist
 *.log
+build_cache.txt
